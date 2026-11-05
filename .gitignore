@@ -1,0 +1,40 @@
+
+# Python virtual environments
+.venv/
+venv/
+**/.venv/
+**/venv/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Environment files and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# dbt generated files
+target/
+**/target/
+dbt_packages/
+**/dbt_packages/
+
+# Logs
+logs/
+**/logs/
+*.log
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python testing cache
+.pytest_cache/
+.mypy_cache/
